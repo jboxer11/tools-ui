@@ -37,7 +37,9 @@ const nextConfig = {
       '@twabDelegator': path.resolve(__dirname, './src/tools/TwabDelegator'),
       '@twabRewards': path.resolve(__dirname, './src/tools/TwabRewards'),
       '@liquidator': path.resolve(__dirname, './src/tools/Liquidator'),
-      '@tokenFaucet': path.resolve(__dirname, './src/tools/TokenFaucet')
+      '@autoClaim': path.resolve(__dirname, './src/tools/AutoClaim'),
+      '@tokenFaucet': path.resolve(__dirname, './src/tools/TokenFaucet'),
+      
     };
     return config
   }

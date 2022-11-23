@@ -68,6 +68,12 @@ const APPS_TO_LIST: AppInfo[] = [
     descriptionKey: 'pooltogetherAirdropDescription',
     href: 'initial-pool-distribution',
     emoji: '🏊'
+  },
+  {
+    titleKey: 'pooltogetherAutoClaim',
+    descriptionKey: 'pooltogetherAutoClaimDescription',
+    href: 'auto-claim',
+    emoji: '🤖'
   }
 ]
 
